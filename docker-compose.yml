@@ -1,0 +1,9 @@
+version: "2.2"
+services:
+  # --BACK--
+  back:
+    build:
+      context: ./
+    container_name: back
+    ports:
+      - 3000:3000
